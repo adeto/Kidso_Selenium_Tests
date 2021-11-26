@@ -4,7 +4,7 @@ Selenium Automated Tests for the "Kidso Web App": https://kidso.bg/?homepage=bla
 
 **Setup**
 
-1. Download/ Close the repository Kidso_Selenium_Tests
+1. Download/ Clone the repository Kidso_Selenium_Tests: git@github.com:adeto/Kidso_Selenium_Tests.git
 2. Download Visual Studio 2019: https://visualstudio.microsoft.com/downloads/
 3. Start the Visual Studio app
 4. File >> Open Project solution/ Folder
