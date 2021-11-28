@@ -33,11 +33,7 @@ namespace Kidso_Selenium_Tests.Tests
             page.AddUser(firstName, lastName, email, password, kidname);
 
             Assert.IsTrue(new RegistrationPage(driver).IsOpen());
-            //var LoginPage = new ViewStudentsPage(driver);
-            //Assert.IsTrue(viewStudentsPage.IsOpen());
-            //var students = viewStudentsPage.GetRegisteredStudents();
-            //string newStudent = firstName + lastName + "(" + email + ")";
-            //Assert.Contains(newStudent, students);
+
         }
     }
 }
