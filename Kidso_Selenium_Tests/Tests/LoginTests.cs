@@ -33,8 +33,6 @@ namespace Kidso_Selenium_Tests.Tests
 
             page.enterUsernameAndPassword(username, password);
 
-            // driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-
             Assert.AreEqual(page.MyProfile.Text, "Test Testov");
           
         }
